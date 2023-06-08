@@ -25,6 +25,11 @@
     --fonte2: 'Raleway', sans-serif;
 }
 
+.posicionamento{
+    width: 85%;
+    margin: 0 auto;
+}
+
 html {
     background-color: var(--background-color);
 }
@@ -68,8 +73,8 @@ html {
 
 .painel-principal {
     margin-bottom: 50px;
-    display: flex;
-    align-items: center;
+   display: flex;
+    align-items: center; 
     
 }
 
@@ -140,9 +145,9 @@ html {
 
 .titulo_perfil {
     width: 50%;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 64px;
+    line-height: 50px;
     text-align: center;
 }
 
@@ -305,7 +310,7 @@ footer {
 }
 
 .redes-sociais {
-    display: flex;
+    
     justify-content: space-between;
 }
 
@@ -354,6 +359,7 @@ footer {
 
     .anuncio-petz {
         height: 100%;
+        gap: 30px;
     }
 
     
@@ -375,7 +381,12 @@ footer {
      }    
     }
     
-    
+@media screen and (max-width:600px)
+    {
+        .card-perfil{
+            width: 100%;
+        }
+    }
 
 
 
